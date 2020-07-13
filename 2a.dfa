@@ -4,8 +4,6 @@ accepting: {Q0}
 
 Q0 (0 -> Q1) (1 -> Q3Q4)
 Q1 (0 -> Q2) (1 -> empty)
-Q2 (0 -> Q1) (1 -> empty)
-Q3Q4 (0 -> empty) (1 -> Q5)
+Q2 (0 -> Q0) (1 -> empty)
+Q3Q4 (0 -> empty) (1 -> Q0)
 empty (0 -> empty) (1 -> empty)
-Q5 (0 -> empty) (1 -> Q4)
-Q4 (0 -> Q0) (1 -> empty)
