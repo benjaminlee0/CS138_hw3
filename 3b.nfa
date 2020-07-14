@@ -2,5 +2,5 @@ alphabet: {a, b}
 start: Q1
 accepting: {Q2}
 
-Q1 (a -> Q2)
+Q1 (a -> Q2) (b -> Q1)
 Q2 (a -> Q2)
